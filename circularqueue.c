@@ -77,26 +77,7 @@ void display(){
 	if(front==-1){
 		printf("empty\n");
 		return;
-	}/*
-	printf("the elements of queue are\n");
-	if(frontpose<=rearpose){
-		while(frontpose<=rearpose){
-			printf("%d\t",arr[frontpose]);
-			front++;
-		}
-	}
-		else{
-			while(frontpose<=max-1){
-				printf("%d\t",arr[frontpose]);
-				frontpose++;
-			}
-			frontpose=0;
-			while(frontpose<=rearpose){
-				printf("%d\t",arr[frontpose]);
-				front++;
-			}
-		}
-		printf("\n");*/
+	
 		while(i!=rear){
 			printf("%d\t",arr[i]);
 			i=(i+1)%max;
